@@ -20,6 +20,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/uetchy"><img src="https://avatars.githubusercontent.com/u/431808?v=4?s=100" width="100px;" alt=""/><br /><sub><b>uetchy</b></sub></a><br /><a href="https://github.com/uetchy/protobuffet/commits?author=uetchy" title="Code">💻</a></td>
+    <td align="center"><a href="https://jan-prochazka.eu/"><img src="https://avatars.githubusercontent.com/u/1665677?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Procházka</b></sub></a><br /><a href="https://github.com/uetchy/protobuffet/commits?author=jprochazk" title="Code">💻</a></td>
   </tr>
 </table>
 
