@@ -1,13 +1,21 @@
-# protobuffet
+# 🍽 protobuffet
 
-Fast, zero-dependency Protocol Buffer binary message parser & assembler.
+Fast, zero-dependency [Protocol Buffers](https://developers.google.com/protocol-buffers/) binary message parser and assembler.
 
-## Use
+## Usage
+
+### Parse
 
 ```js
 import { parse } from "protobuffet";
 
 parse();
+```
+
+### Construct
+
+```js
+
 ```
 
 ## Contributors ✨
