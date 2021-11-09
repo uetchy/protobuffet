@@ -1,6 +1,6 @@
 {
   "name": "protobuffet",
-  "description": "protobuffet",
+  "description": "Fast, zero-dependency Protocol Buffers binary message parser and assembler",
   "version": "0.0.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "scripts": {
