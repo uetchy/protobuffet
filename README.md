@@ -1,5 +1,8 @@
 # 🍽 protobuffet
 
+[![npm](https://badgen.net/npm/v/protobuffet)](https://npmjs.org/package/protobuffet)
+[![npm: total downloads](https://badgen.net/npm/dt/protobuffet)](https://npmjs.org/package/protobuffet)
+
 Fast, zero-dependency [Protocol Buffers](https://developers.google.com/protocol-buffers/) binary message parser and assembler.
 
 ## Usage
@@ -7,15 +10,17 @@ Fast, zero-dependency [Protocol Buffers](https://developers.google.com/protocol-
 ### Parse
 
 ```js
-import { parse } from "protobuffet";
+import { parsePb } from "protobuffet";
 
-parse();
+const parsed = parsePb(uint8Array);
 ```
 
 ### Construct
 
 ```js
+import { ld, vt, concatu8 as cc } from "protobuffet";
 
+const binMsg = cc(ld(0, "hello"), vt(1, 1000));
 ```
 
 ## Contributors ✨

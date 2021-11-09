@@ -1,6 +1,6 @@
 import { bitou8, concatu8 as cc } from "./util";
 
-function ld(
+export function ld(
   fid: bigint | number,
   payload: Uint8Array[] | Uint8Array | string
 ): Uint8Array {
@@ -14,7 +14,7 @@ function ld(
   return cc([bitou8(pbh(fid, 2)), bitou8(encv(BigInt(bLen))), b]);
 }
 
-function vt(fid: bigint | number, payload: bigint | number): Uint8Array {
+export function vt(fid: bigint | number, payload: bigint | number): Uint8Array {
   return cc([bitou8(pbh(fid, 0)), bitou8(payload)]);
 }
 
